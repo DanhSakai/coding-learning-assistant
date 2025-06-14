@@ -1,0 +1,6 @@
+{
+  "name": "Ứng dụng Hỗ trợ Học Lập Trình",
+  "description": "Một ứng dụng web giúp người dùng học các khái niệm lập trình JavaScript, React, Vite, Angular, TypeScript thông qua flashcards, bài tập và ý tưởng dự án được tạo bởi AI.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

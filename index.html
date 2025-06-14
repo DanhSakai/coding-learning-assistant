@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ứng dụng Hỗ trợ Học Lập Trình</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/heroicons/2.1.1/24/outline/hero-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.4.0"
+  }
+}
+</script>
+<style>
+  .font-jetbrains-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .code-block-copy-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #4A5568; /* gray-700 */
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  }
+  .code-block-copy-button:hover {
+    opacity: 1;
+    background-color: #2D3748; /* gray-800 */
+  }
+  .code-block-container:hover .code-block-copy-button {
+    opacity: 1;
+  }
+</style>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-gray-900 text-white">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
